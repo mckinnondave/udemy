@@ -17,3 +17,5 @@ strings.splice(2, 0, 'alien') // O(n) because we have to loop again and change i
 // push O(1)
 // insert O(n) ex. unshift
 // delete O(n) ex. splice(2, 1)
+
+// Javascript is a higher level language and allows you to not worry about memory, while something like C++ you have to be aware of memory and allocate it. The upside to allocating memory rather than having the computer take care of it, is it can be faster.
