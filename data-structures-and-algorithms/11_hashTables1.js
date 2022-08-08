@@ -13,3 +13,4 @@ let user = {
  user.scream // O(1)
 
 //  Collisions where hashtables get stored will cause O(n/k) with k being the size of the hashtable => becomes O(n).
+
