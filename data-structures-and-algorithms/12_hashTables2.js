@@ -32,11 +32,24 @@ class HashTable {
     } // If no collisions, this is O(1). O(n) with collisions.
     return undefined;
   }
+
+  keys() {
+    const keysArray = [];
+    for (let i = 0; i < this.data.length; i++) {
+      if (this.data[i]) {
+        keysArray.push(this.data[i][0][0])
+      }
+    }
+    return keysArray
+  }
 }
 
 const myHashTable = new HashTable(50);
 myHashTable.set('grapes', 10000);
 myHashTable.set('apples', 54);
+myHashTable.set('oranges', 2)
+myHashTable.keys()
 console.log("GET RETURN", myHashTable.get('grapes'));
 
 console.log(myHashTable.data);
+console.log(myHashTable.keys());
