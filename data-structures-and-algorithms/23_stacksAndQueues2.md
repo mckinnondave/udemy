@@ -8,7 +8,7 @@
 
 ## QUEUES
 
-- Can be built through arrays or linked lists  
+- Can be built through linked lists  
 
 - Never want to build with an array because once you remove the first element, you then have to shift every other element - O(n) operation time.
 - Using linked list and removing the first element just removes the pointer and the head - O(1) operation time
