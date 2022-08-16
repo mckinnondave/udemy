@@ -2,11 +2,11 @@
 
 - Trees have a root, parents, children, leaves, and siblings
 
-      1
+ <!-- 1
     / | \
    2  3  4
      / \
-    6   7
+    6   7 -->
 
 Root: 1
 Parent: 1 and 3
@@ -19,15 +19,15 @@ Siblings: 2, 3, 4 and 6, 7
 
 - Each node can only have 0, 1, or 2 nodes.
 
-<script>
+```js
 function BinaryTreeNode(value) {
   this.value = value;
   this.left = null;
   this.right = null;
 }
-</script>
+```
 
-      1
+ <!-- 1
     /   \
    1     1
   / \   / \
@@ -41,4 +41,4 @@ Perfect Binary Tree
   1   1
      / \
     1   1
-Full Binary Tree
+Full Binary Tree -->
