@@ -19,13 +19,13 @@ Siblings: 2, 3, 4 and 6, 7
 
 - Each node can only have 0, 1, or 2 nodes.
 
-```js
+<script>
 function BinaryTreeNode(value) {
   this.value = value;
   this.left = null;
   this.right = null;
 }
-```
+</script>
 
       1
     /   \
