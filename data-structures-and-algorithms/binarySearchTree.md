@@ -11,3 +11,12 @@ Delete: O(log N)
 - Unbalanced: Tree isn't symetrical and has nodes more on one side causing performance to be O(n)
 
 Ideally, we want balanced search trees to have log N performance
+
+### Pros and Cons
+- Pros: 
+  - Good performance when balanced
+  - Ordered
+  - Can have flexible size
+
+- Cons:
+  - No O(1) operations, therefore not the fastest at anything
