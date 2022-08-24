@@ -1,0 +1,4 @@
+- At high level, app is built through building blocks called classes
+- Class: is a container with data (attributes) and methods (functions)
+- Namespace: a container of related classes
+- As namespace amounts grow, we need a way to partition an application => we use an Assembly (DLL or EXE) which is simply a container of related Namespaces 
